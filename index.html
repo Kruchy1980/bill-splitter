@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/bookmark-icon/bills.svg">
+    <title>Bill Splitter</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- Google fonts import - Dancing Script  and Montserat-->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;562;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main></main>
+
+    <div class="wrapper">
+
+        <div class="top">
+            <h1 class="top__title">Bill Splitter</h1>
+            <p class="top__text">
+                Share the bill between friends! ;)
+            </p>
+        </div>
+        <div class="bottom">
+            <!-- Price -->
+            <label for="price" class="label__description">Amount to pay:</label>
+            <input type="number" class="price__input" id="price">
+
+            <!-- People -->
+            <label for="people" class="label__description">Quantity of people:</label>
+            <input type="number" class="people__input" id="people">
+
+            <!-- Tip -->
+            <label for="tip" class="label__description">Tip:</label>
+            <select class="tip__list" id="tip">
+                <option value="0" disabled selected>--- Choose the Tip ---</option>
+                <option value="0.05">5%</option>
+                <option value="0.1">10%</option>
+                <option value="0.15">15%</option>
+                <option value="0.2">20%</option>
+            </select>
+
+            <button class="count">Calculate</button>
+            <p class="error"></p>
+            <p class="cost-info">You should fold after: <span class="cost">---</span> PLN</p>
+        </div>
+    </div>
+
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,132 @@
+/* Main */
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ccc;
+}
+
+
+/* Wrapper */
+
+.wrapper {
+    width: 400px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #222;
+}
+
+
+/* top */
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    color: #fff;
+    background-color: #00ba40;
+    text-transform: uppercase;
+}
+
+
+/* top title */
+
+.top__title {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* top text */
+
+.top__text {
+    margin-top: 10px;
+}
+
+
+/* Bottom */
+
+.bottom {
+    padding: 40px 20px;
+    box-shadow: inset 0 0 5px 3px #00ba40;
+}
+
+
+/* Labels Descript */
+
+.label__description {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+
+/* Inputs and select */
+
+.price__input,
+.people__input,
+.tip__list {
+    margin-bottom: 25px;
+    padding: 8px 10px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+
+/* Calculate */
+
+.count {
+    display: block;
+    margin: 20px auto;
+    padding: 20px 10px;
+    width: 60%;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ddd;
+    background-color: #00ba40;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.count:hover {
+    background-color: #038b33;
+}
+
+
+/* Cost info */
+
+.cost-info {
+    display: none;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+
+/* cost */
+
+.cost {
+    font-weight: bold;
+}
+
+
+/* Error */
+
+.error {
+    font-size: 18px;
+    color: #8b0303;
+    text-align: center;
+}
