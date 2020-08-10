@@ -17,3 +17,5 @@ Prosty projekt, który pozwala obliczyć udział w rachunku wystawionym na kilka
 2. Podaj ilość kontrybutorów - number
 3. Wybierz wartość napiwku - warunek konieczny
 4. Naciśnij Przycisk 'Calculate'
+
+### URL of project
