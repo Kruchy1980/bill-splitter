@@ -19,3 +19,4 @@ Prosty projekt, który pozwala obliczyć udział w rachunku wystawionym na kilka
 4. Naciśnij Przycisk 'Calculate'
 
 ### URL of project
+**https://kruchy1980.github.io/bill-splitter/**
